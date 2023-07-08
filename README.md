@@ -1,5 +1,7 @@
 # Titanic
 [Enlace a la aplicación de Streamlit](https://alba-app-titanic.streamlit.app/)
+[Enlace a la herramienta de regresión en Streamlit](https://titanicmodels.streamlit.app/Regression)
+[Enlace a la herramienta de clasificación en Streamlit](https://titanicmodels.streamlit.app/Classification)
 
 ## Proyecto Titanic
 
