@@ -27,9 +27,9 @@ with col1:
     Pclass = st.selectbox("Clase", titanic2['Pclass'].unique())
     Sex = st.selectbox("Género", titanic2['Sex'].unique())
     Age = st.number_input("Edad", min_value=0, max_value=80)
-    SibSp = st.number_input("Número de hermanos o cónyuje a bordo", min_value=0, max_value=10)
+    SibSp = st.number_input("Número de hermanos o cónyuje a bordo", min_value=0, max_value=8)
 with col2:
-    Parch = st.number_input("Número de padres o hijos a bordo", min_value=0, max_value=10)
+    Parch = st.number_input("Número de padres o hijos a bordo", min_value=0, max_value=6)
     Embarked = st.selectbox('Puerto de embarque',titanic2['Embarked'].unique())
     filtered_levels = titanic2[titanic2['Pclass'] == Pclass]['Level'].unique()
     Level = st.selectbox("Nivel del barco", filtered_levels)
